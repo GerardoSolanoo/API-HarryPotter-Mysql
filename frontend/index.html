@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API POSTGRES</title>
+    <link rel="stylesheet" href="/frontend/styles.css">
+</head>
+<body>
+    <p>
+        Crea tu propio personaje de HarryPotter
+    </p>
+
+    <div>
+        <label>Nombre:</label>
+        <input type="text" id="name">
+    </div>
+    <div>
+        <label>Last Name: </label>
+        <input type="text" id="lastname">
+    </div>
+    <div>
+        <label>Age:</label>
+        <input type="text" id="age">
+    </div>
+    <div>
+        <label>House:</label>
+        <input type="text" id="house">
+    </div>
+    <div>
+        <label>Speciality:</label>
+        <input type="text" id="speciality">
+    </div>
+    <div>
+        <label>Patronus:</label>
+        <input type="text" id="patronus">
+    </div>
+    <button onclick="createWizard()">POST Wizard </button>
+    <button onclick="getAllWizards()">GET Wizards </button>
+    <div id="resultado"></div>
+    <button type="button" onclick="cambiarTema()">Cambiar Tema</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="/frontend/connectionapi.js"></script>
+</body>
+</html>

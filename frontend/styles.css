@@ -1,0 +1,53 @@
+/* Estilos para el tema claro */
+body {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+h1 {
+  color: #333;
+}
+
+label {
+  color: #333;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+/* Estilos para el tema oscuro */
+body.dark {
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+label.dark{
+  color: #f2f2f2;
+}
+
+h1.dark {
+  color: #f2f2f2;
+}
+
+label.dark {
+  color: #f2f2f2;
+}
+
+button.dark {
+  background-color: #0062cc;
+  color: #f2f2f2;
+}
+
+button.dark:hover {
+  background-color: #007bff;
+}
